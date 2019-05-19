@@ -269,7 +269,7 @@ names to which it refers are bound."
       (ivy-cursor (:background ,alt-background))
       (ivy-match-required-face (:foreground ,red :background ,background))
       (ivy-remote (:foreground ,orange))
-      (ivy-subdir (:foreground ,magenta))
+      ;; (ivy-subdir (:foreground ,magenta))
       (ivy-virtual (:foreground ,faintest))
       (ivy-minibuffer-match-face-1 (:foreground ,cyan))
       (ivy-minibuffer-match-face-2 (:foreground ,orange))
@@ -300,7 +300,7 @@ names to which it refers are bound."
       (mode-line-emphasis (:slant italic))
       (mode-line-highlight (:foreground ,violet :box nil :weight bold))
       (minibuffer-prompt (:foreground ,blue))
-      (region (:background ,contrast-background :inverse-video nil))
+      (region (:foreground ,strong :inverse-video t))
       (secondary-selection (:background ,alt-background))
 
       (header-line (:inherit mode-line-inactive :foreground ,cyan :background nil))
