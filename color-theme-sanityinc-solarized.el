@@ -511,6 +511,7 @@ names to which it refers are bound."
       (org-agenda-dimmed-todo-face (:foreground ,faint))
       (org-block (:foreground ,orange))
       (org-code (:foreground ,yellow))
+      (org-verbatim (:foreground ,yellow))
       (org-column (:background ,alt-background))
       (org-column-title (:inherit org-column :weight bold :underline t))
       (org-date (:foreground ,blue :underline t))
