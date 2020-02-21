@@ -528,6 +528,7 @@ names to which it refers are bound."
       (org-scheduled-previously (:foreground ,yellow))
       (org-scheduled-today (:foreground ,green))
       (org-special-keyword (:foreground ,yellow))
+      (org-drawer (:foreground ,yellow))
       (org-table (:foreground ,violet))
       (org-todo (:foreground ,red))
       (org-upcoming-deadline (:foreground ,yellow))
